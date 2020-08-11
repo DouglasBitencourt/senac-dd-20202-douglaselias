@@ -64,5 +64,6 @@ public class TelaPrincipal extends JFrame {
 		btnNewButton_1.setBackground(Color.DARK_GRAY);
 		btnNewButton_1.setBounds(204, 71, 89, 23);
 		contentPane.add(btnNewButton_1);
+		//teste
 	}
 }
