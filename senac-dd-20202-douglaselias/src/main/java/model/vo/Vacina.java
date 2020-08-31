@@ -1,9 +1,11 @@
 package model.vo;
 
+import java.time.LocalDate;
+
 public class Vacina {
 	private String paisOrigem;
 	private int estagioPesquisa;
-	private String dataInicioPesquisa;
+	private LocalDate dataInicioPesquisa;
 	private String nomePesquisador;
 	private int aplicacao;
 	public String getPaisOrigem() {
@@ -18,10 +20,11 @@ public class Vacina {
 	public void setEstagioPesquisa(int estagioPesquisa) {
 		this.estagioPesquisa = estagioPesquisa;
 	}
-	public String getDataInicioPesquisa() {
+	
+	public LocalDate getDataInicioPesquisa() {
 		return dataInicioPesquisa;
 	}
-	public void setDataInicioPesquisa(String dataInicioPesquisa) {
+	public void setDataInicioPesquisa(LocalDate dataInicioPesquisa) {
 		this.dataInicioPesquisa = dataInicioPesquisa;
 	}
 	public String getNomePesquisador() {

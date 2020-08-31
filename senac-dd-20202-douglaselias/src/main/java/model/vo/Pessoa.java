@@ -1,9 +1,11 @@
 package model.vo;
 
+import java.time.LocalDate;
+
 public class Pessoa {
 	private String nome;
-	private String dataNascimento;
-	private boolean sexo;
+	private LocalDate dataNascimento;
+	private char sexo;
 	private String cpf;
 	private int reacao;
 	public String getNome() {
@@ -12,16 +14,18 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getDataNascimento() {
+
+	public LocalDate getDataNascimento() {
 		return dataNascimento;
 	}
-	public void setDataNascimento(String dataNascimento) {
+	public void setDataNascimento(LocalDate dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-	public boolean isSexo() {
+
+	public char getSexo() {
 		return sexo;
 	}
-	public void setSexo(boolean sexo) {
+	public void setSexo(char sexo) {
 		this.sexo = sexo;
 	}
 	public String getCpf() {
