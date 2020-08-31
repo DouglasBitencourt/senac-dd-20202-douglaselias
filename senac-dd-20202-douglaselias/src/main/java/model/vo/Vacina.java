@@ -3,12 +3,21 @@ package model.vo;
 import java.time.LocalDate;
 
 public class Vacina {
-	PesquisadorResponsavel Pesquisador;
+	Pesquisador PesquisadorResponsavel;
 	private String paisOrigem;
 	private int estagioPesquisa;
 	private LocalDate dataInicioPesquisa;
 	private String nomePesquisador;
 	private int aplicacao;
+	
+	
+	
+	public Pesquisador getPesquisadorResponsavel() {
+		return PesquisadorResponsavel;
+	}
+	public void setPesquisadorResponsavel(Pesquisador pesquisadorResponsavel) {
+		PesquisadorResponsavel = pesquisadorResponsavel;
+	}
 	public String getPaisOrigem() {
 		return paisOrigem;
 	}
