@@ -3,6 +3,7 @@ package model.vo;
 import java.time.LocalDate;
 
 public class Vacina {
+	PesquisadorResponsavel Pesquisador;
 	private String paisOrigem;
 	private int estagioPesquisa;
 	private LocalDate dataInicioPesquisa;
